@@ -13,6 +13,22 @@ The script then splits into modules investigating subsets of genes. First, the m
 ![Script Flow Diagram](https://github.com/TpmRichard/WES-Filtering-Algorithm-for-PKD-Genes-using-ANNOVA-Outputs/blob/main/Script%20Flow%20Diagram.png)
 
 
+### Filter Cutoffs
+
+Currently filter cutoffs are predefined within the code and are outlined below. 
+
+| Application      | Criteria         |
+| ---------------- | ---------------- |
+| CADD             | Phred Score > 10 |
+| FATHMM           | < -1.5           |
+| Gerp++           | > 2              |
+| LRT              | D                |
+| MutationAssessor | H or M           |
+| MutationTaster   | A or D           |
+| PhyloP           | > 0.5            |
+| PolyPhen-2       | > 0.447          |
+| SIFT             | < 0.05           |
+| SiPhy            | > 2              |
 
 ### Limitations:
 The script has a few limitations that complicate its application to more general datasets. Many of these aspects relate to a lack of variables within the code. 
