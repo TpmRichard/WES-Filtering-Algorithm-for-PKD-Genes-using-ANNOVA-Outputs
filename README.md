@@ -10,6 +10,10 @@ First, the script extends the available statistics lists by creating new annotat
 
 The script then splits into modules investigating subsets of genes. First, the module script filters the rare variant subset by gene lists, such as PKHD1 and DZIP1L. After shortlisting the variants by genes of interest, variants were filtered for confirmed pathogenic variants in either ClinVar or HGMD. Variants that failed this filter were then investigated to determine the variant type. Splicing variants, frameshifts, and truncations were then highlighted as potential variants of interest. SNPs were investigated to determine the likelihood of being pathogenic, which was determined as a pathogenic percentage of 30% or higher. Thirty per cent was derived from the need for two or more programs that predicated a likelihood of being pathogenic when four or more predictions were available while allowing variants with less information to also pass through the filter. The final filter detected more novel variants with no pathogenic predictions. Outputs were generated for all rare variants and variants of interest. A final output file of all rare variants that passed the filter parameters and removed the actively investigated genes was also generated as part of the script for further analysis. The script was tested on a small training dataset generated from the sequencing data to ensure that the script could filter and output the data correctly.
 
+![Script Flow Diagram](https://github.com/TpmRichard/WES-Filtering-Algorithm-for-PKD-Genes-using-ANNOVA-Outputs/blob/main/Script%20Flow%20Diagram.png)
+
+
+
 ### Limitations:
 The script has a few limitations that complicate its application to more general datasets. Many of these aspects relate to a lack of variables within the code. 
 1)	Several functions within the current implementation reference specific column names or column positions. Different ANNOVAR outputs may have different names or column positions for similar information. 
