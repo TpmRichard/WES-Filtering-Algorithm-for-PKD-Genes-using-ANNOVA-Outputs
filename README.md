@@ -40,8 +40,6 @@ The script has a few limitations that complicate its application to more general
 6)	The script assumes a specific naming convention. 
 7)	The script assumes two file inputs: Single Nucleotide Polymorphisms (SNPs) and Insertions and Deletions (INDELs). 
 
-### Common Errors:
-A common example error code is: In ExonicFunc == "missense SNV" && Patho_Programs_Avaliable ==  ... : 'length(x) = 3 > 1' in coercion to 'logical(1)'. Although this warning does occur, it does not currently appear to impact the rare variant filtering process.  
 
 ### Publications:
 N/A
