@@ -19,7 +19,7 @@ Currently filter cutoffs are predefined within the code and are outlined below.
 
 | Application      | Criteria         |
 | ---------------- | -------------------- |
-| CADD             | Does not contain "." = Phred Score > 10     |
+| CADD             | Does not contain "."; = Phred Score > 10     |
 | FATHMM           | D                    |
 | Gerp++           | Does not contain "." |
 | LRT              | D                    |
