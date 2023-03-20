@@ -1,4 +1,4 @@
-# WES-Filtering-Algorithm-for-PKD-Genes-using-ANNOVAR-Outputs
+# WES Filtering Algorithm for PKD Genes using ANNOVAR Outputs
 
 A filtering algorithm for genes of interest to filter down potentially pathogenic variants annotated by ANNOVAR with the aim to find rare potential mutations within genes in ARPKD. 
 
