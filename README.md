@@ -1,6 +1,6 @@
 # WES-Filtering-Algorithm-for-PKD-Genes-using-ANNOVAR-Outputs
 
-A filtering algorithm for genes of interest to filter down potentially pathogenic variants annotated by ANNOVA with the aim to find rare potential mutations within genes associated with PKD, Ciliopathies, WNT/PCP and Atmin-related genes in ARPKD. 
+A filtering algorithm for genes of interest to filter down potentially pathogenic variants annotated by ANNOVAR with the aim to find rare potential mutations within genes in ARPKD. 
 
 ### Forward:
 The script within this GitHub repository was designed and used as part of a PhD thesis to explore rare variants in ARPKD individuals. The script is published here to provide access to the script used within the study for interested individuals. Although the script can filter down to genes of interest, several limitations may limit its use outside this study. However, should any aspects be of interest, it is free to use.     
@@ -40,6 +40,11 @@ The script has a few limitations that complicate its application to more general
 6)	The script assumes a specific naming convention. 
 7)	The script assumes two file inputs: Single Nucleotide Polymorphisms (SNPs) and Insertions and Deletions (INDELs). 
 
+### Acknowledgements
+
+ANNOVAR, which provided the annotations that this script makes use of to highlight variants of interest (Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data Nucleic Acids Research, 38:e164, 2010). 
+
+Tidyverse package, functions from which this tool makes use. (Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). “Welcome to the tidyverse.” Journal of Open Source Software, 4(43), 1686. doi:10.21105/joss.01686). 
 
 ### Publications:
 N/A
